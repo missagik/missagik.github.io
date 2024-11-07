@@ -60,7 +60,7 @@ aside {
     border-radius: 15px;
 }
 
-div {
+#photos {
     margin-top: 1em;
     border: double black 1em;
     text-align: center;
