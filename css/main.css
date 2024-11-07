@@ -1,0 +1,112 @@
+header {
+    text-align: center;
+}
+
+h1, h2, h3, nav a, .abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p, a, td, li, .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header nav a {
+    color: inherit;
+    padding: 0.5em;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: pink;
+    border-radius: 15px;
+}
+
+a {
+    color: black;
+}
+
+main p a {
+    border: solid
+}
+
+::selection {
+    background-color: pink;
+    color: white;
+}
+
+img {
+    border-radius: 15px;
+    text-align: center;
+}
+
+body #main {
+    background-image: url('../images/FD07338B-C2B3-4F78-88CC-E4748835453C_1_105_c.jpeg');
+    background-position: center;
+    color: white;
+    border-radius: 15px;
+    padding: 1.5em;
+}
+
+aside {
+    background-color: rgb(250, 226, 230);
+    border: 2.5px dotted black;
+    padding: 20px;
+    flex: 1;
+    border-radius: 15px;
+}
+
+div {
+    margin-top: 1em;
+    border: double black 1em;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#one, #two, #three, #five {
+    border-bottom: solid black;
+    margin-bottom: 1.4em;
+    border-bottom-right-radius: 30px;
+}
+
+#one {
+    background-color: rgb(248, 115, 137);
+}
+
+#two {
+    background-color: rgb(253, 169, 183);
+}
+
+#three {
+    background-color: rgb(252, 204, 213);
+}
+
+#four {
+    background-color: rgb(250, 226, 230);
+}
+
+#five {
+    background-color: rgb(250, 226, 230);
+}
+
+.even {
+    border-bottom: solid;
+}
+
+footer {
+    background-color: rgb(254, 223, 228);
+    padding: 1em;
+    padding-bottom: 1.5em;
+    border-left: solid 5px;
+    margin-top: 2em;
+}
+
+@media (width > 768px) {
+    aside {
+        float: right;
+    }
+}
