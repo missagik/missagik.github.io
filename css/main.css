@@ -57,6 +57,11 @@ body #main {
     padding: 1.5em;
 }
 
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
 aside {
     background-color: rgb(250, 226, 230);
     border: 2.5px dotted black;
