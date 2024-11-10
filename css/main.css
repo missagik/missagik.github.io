@@ -3,13 +3,13 @@ header {
 }
 
 h1, h2, h3, nav a, .abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
+    font-family: "Abril Fatface", serif, 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
   }
 
 p, a, td, li, .baskervville-regular {
-    font-family: "Baskervville", serif;
+    font-family: "Baskervville", serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -44,6 +44,11 @@ img {
     text-align: center;
 }
 
+#wide { /* adjustment for the two wide images on bottom of about page */
+    max-width: 100%;
+    height: auto;
+}
+
 body #main {
     background-image: url('../images/FD07338B-C2B3-4F78-88CC-E4748835453C_1_105_c.jpeg');
     background-position: center;
@@ -67,7 +72,7 @@ aside {
     background-color: whitesmoke;
 }
 
-#one, #two, #three, #five {
+#one, #two, #three, #five { /*sections on about page */
     border-bottom: solid black;
     margin-bottom: 1.4em;
     border-bottom-right-radius: 30px;
@@ -93,7 +98,7 @@ aside {
     background-color: rgb(250, 226, 230);
 }
 
-.even {
+.line {
     border-bottom: solid;
 }
 
