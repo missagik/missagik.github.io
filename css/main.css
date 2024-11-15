@@ -21,6 +21,15 @@ header nav a {
     
 }
 
+button {
+    padding: 5px;
+    margin-top: 1em;
+    background-color: pink;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
 a:hover {
     background-color: pink;
     border-radius: 15px;
