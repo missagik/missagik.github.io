@@ -2,7 +2,7 @@ header {
     text-align: center;
 }
 
-h1, h2, h3, nav a, .abril-fatface-regular {
+h1, h2, h3, nav a, button, .abril-fatface-regular {
     font-family: "Abril Fatface", serif, 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
