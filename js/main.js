@@ -13,14 +13,18 @@ fYear.textContent = d.getFullYear();
 //header timed greeting
 const greet = document.getElementById("greetings");
 
-if (d.getHours() <6)
-    greet.innerHTML = 'why are you awake, go to sleep...'
+if (d.getHours() < 6)
+    greet.innerHTML = 'why are you awake, go to sleep...',
+    greet.style.backgroundColor = 'red';
 else if (d.getHours() < 17)
-    greet.innerHTML = 'Good Afternoon!';
+        greet.innerHTML = 'Good Afternoon!',
+        greet.style.backgroundColor = '#f87389';
 else if (d.getHours() < 24)
-    greet.innerHTML = 'Good evening!';
+        greet.innerHTML = 'Good evening!',
+        greet.style.backgroundColor = 'pink';
 else if (d.getHours() < 12)
-    greet.innerHTML = 'Good morning!';
+    greet.innerHTML = 'Good morning!',
+    greet.style.backgroundColor = '#fae2e6';
 
 
 
