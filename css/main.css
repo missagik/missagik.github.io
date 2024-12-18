@@ -21,15 +21,6 @@ header nav a {
     
 }
 
-button {
-    padding: 5px;
-    margin-top: 1em;
-    background-color: pink;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
 a:hover {
     background-color: pink;
     border-radius: 15px;
@@ -37,10 +28,6 @@ a:hover {
 
 a {
     color: black;
-}
-
-main p a {
-    border: solid
 }
 
 ::selection {
@@ -72,11 +59,10 @@ body #main {
 }
 
 aside {
-    background-color: rgb(250, 226, 230);
-    border: 2.5px dotted black;
-    padding: 20px;
-    flex: 1;
-    border-radius: 15px;
+    border-bottom: solid black;
+    margin-bottom: 1.4em;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 0.7em;
 }
 
 #photos {
@@ -92,26 +78,6 @@ aside {
     border-bottom-right-radius: 30px;
 }
 
-#one {
-    background-color: rgb(248, 115, 137);
-}
-
-#two {
-    background-color: rgb(253, 169, 183);
-}
-
-#three {
-    background-color: rgb(252, 204, 213);
-}
-
-#four {
-    background-color: rgb(250, 226, 230);
-}
-
-#five {
-    background-color: rgb(250, 226, 230);
-}
-
 .line {
     border-bottom: solid;
 }
@@ -124,8 +90,3 @@ footer {
     margin-top: 2em;
 }
 
-@media (width > 768px) {
-    aside {
-        float: right;
-    }
-}
